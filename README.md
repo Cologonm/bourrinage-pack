@@ -7,7 +7,7 @@
 4. Instance > Paramètres > Commandes personnalisées > Pré-lancement :
 
    ```
-   "$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://raw.githubusercontent.com/UTILISATEUR_GITHUB/bourrinage-pack/main/pack.toml
+   "$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://raw.githubusercontent.com/Cologonm/bourrinage-pack/main/pack.toml
    ```
 
 5. Lancer le jeu : les mods se téléchargent. À chaque lancement, le pack se met à jour tout seul.

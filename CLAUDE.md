@@ -34,4 +34,4 @@ Pour qu'il ne soit pas écrasé chez les joueurs, mettre `preserve = true` sur s
 - Distribution CurseForge vérifiée le 2026-11-22 : aucun mod bloqué.
 
 ## À faire
-- Créer le dépôt GitHub, pousser, mettre le nom d'utilisateur dans l'URL du README.md
+- Dépôt : github.com/Cologonm/bourrinage-pack ; URL raw : https://raw.githubusercontent.com/Cologonm/bourrinage-pack/main/pack.toml
