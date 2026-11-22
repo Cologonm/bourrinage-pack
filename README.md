@@ -14,6 +14,71 @@
 
 Les mondes, options et waypoints ne sont jamais touchés.
 
+## Contenu du pack (45 mods)
+
+Les mods marqués *(client)* ne sont installés que chez les joueurs, pas sur le serveur.
+
+**Pokémon**
+1. Cobblemon 1.5.2
+2. CobblemonRider
+
+**Tech**
+3. Create Fabric
+4. Create: New Age
+5. Create Crafts & Additions
+
+**Cuisine et déco**
+6. Farmer's Delight Refabricated
+7. [Let's Do] Brewery (Legacy)
+8. [Let's Do] Bakery (Legacy)
+9. [Let's Do] Vinery
+10. [Let's Do] Farm & Charm
+11. [Let's Do] Meadow
+12. [Let's Do] Furniture
+
+**Stockage**
+13. Storage Drawers
+14. Sophisticated Backpacks
+15. Sophisticated Core
+
+**Monde et gameplay**
+16. Terralith
+17. When Dungeons Arise
+18. When Dungeons Arise - Seven Seas
+19. Bountiful
+20. Universal Graves
+21. Tree Harvester
+22. Waystones
+
+**Interface**
+23. JEI *(client)*
+24. WTHIT *(client)*
+25. AppleSkin *(client)*
+26. Xaero's Minimap *(client)*
+27. Xaero's World Map *(client)*
+
+**Performance**
+28. Sodium *(client)*
+29. Indium *(client)*
+30. Lithium
+31. FerriteCore
+32. ModernFix
+33. Entity Culling *(client)*
+34. ImmediatelyFast *(client)*
+
+**Librairies**
+35. Fabric API
+36. Architectury
+37. Cloth Config
+38. Collective
+39. Kambrik
+40. Fabric Language Kotlin
+41. Forge Config API Port
+42. Bad Packets
+43. Polymer
+44. [Let's Do] API
+45. Balm
+
 ## Dépannage
 
 ### Un mod est refusé au téléchargement
