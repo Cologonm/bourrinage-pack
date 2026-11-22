@@ -1,0 +1,24 @@
+# Fichiers du dépôt qui ne doivent PAS être envoyés aux joueurs
+# (packwiz refresh indexe tout le reste, et packwiz-installer le copie dans .minecraft)
+README.md
+CLAUDE.md
+check.sh
+.gitignore
+.packwizignore
+.claude/
+.github/
+*.zip
+
+# Garde-fou : données perso, ne jamais les publier même si elles atterrissent ici par erreur
+saves/
+options.txt
+optionsof.txt
+servers.dat
+xaero/
+XaeroWaypoints/
+XaeroWorldMap/
+screenshots/
+resourcepacks/
+shaderpacks/
+logs/
+crash-reports/

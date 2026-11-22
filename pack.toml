@@ -1,0 +1,13 @@
+name = "Bourrinage"
+author = "Bourrinage"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "1097444fb0d333da952a2d9dc68ad6c8e159033235b451abe8bb9d8e16c14ba4"
+
+[versions]
+fabric = "0.18.4"
+minecraft = "1.20.1"

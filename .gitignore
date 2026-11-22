@@ -1,0 +1,33 @@
+# macOS / éditeurs
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Pas de binaires dans le dépôt : packwiz ne stocke que des métadonnées
+*.jar
+*.zip
+*.mrpack
+
+# Données perso des joueurs : ne doivent jamais être versionnées
+saves/
+options.txt
+optionsof.txt
+servers.dat
+servers.dat_old
+xaero/
+XaeroWaypoints/
+XaeroWorldMap/
+screenshots/
+resourcepacks/
+shaderpacks/
+logs/
+crash-reports/
+
+# Fichiers générés par packwiz-installer côté joueur
+packwiz.json
+packwiz-installer.jar
+packwiz-installer-bootstrap.jar
+
+# Réglages locaux de Claude Code
+.claude/settings.local.json
