@@ -1,18 +1,33 @@
 # Bourrinage : installation joueur (Prism Launcher)
 
-1. Installer Prism Launcher (prismlauncher.org) et se connecter avec son compte Minecraft.
-2. Créer une instance : Minecraft 1.20.1, Fabric Loader 0.18.4. Allouer 4 à 5 Go de RAM.
-3. Ouvrir le dossier `.minecraft` de l'instance, y déposer `packwiz-installer-bootstrap.jar`
+1. Installer **Prism Launcher** (prismlauncher.org), l'ouvrir et ajouter son compte Microsoft
+   (bouton en haut à droite > Gérer les comptes > Ajouter Microsoft).
+2. **Ajouter une instance** > **Importer** > coller ce lien, puis OK :
+
+   ```
+   https://github.com/Cologonm/bourrinage-pack/releases/latest/download/Bourrinage.zip
+   ```
+
+3. Sélectionner **Bourrinage** > **Lancer**. Si Prism propose de télécharger Java, accepter.
+   Une fenêtre « packwiz » télécharge les mods (quelques minutes la première fois), puis le jeu s'ouvre.
+
+C'est tout. À chaque lancement, le pack se met à jour tout seul. L'adresse du serveur est donnée
+par l'organisatrice ou l'organisateur (le serveur est sur liste blanche : donner son pseudo pour être ajouté).
+
+Les mondes, options et waypoints ne sont jamais touchés.
+
+### Installation manuelle (si l'import ne marche pas)
+
+1. Créer une instance : Minecraft 1.20.1, Fabric Loader 0.18.4. Allouer 4 à 5 Go de RAM.
+2. Ouvrir le dossier `.minecraft` de l'instance, y déposer `packwiz-installer-bootstrap.jar`
    (github.com/packwiz/packwiz-installer-bootstrap/releases).
-4. Instance > Paramètres > Commandes personnalisées > Pré-lancement :
+3. Instance > Modifier > Paramètres > Commandes personnalisées > Pré-lancement :
 
    ```
    "$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://raw.githubusercontent.com/Cologonm/bourrinage-pack/main/pack.toml
    ```
 
-5. Lancer le jeu : les mods se téléchargent. À chaque lancement, le pack se met à jour tout seul.
-
-Les mondes, options et waypoints ne sont jamais touchés.
+4. Lancer le jeu.
 
 ## Contenu du pack (45 mods)
 

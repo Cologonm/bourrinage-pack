@@ -22,3 +22,6 @@ resourcepacks/
 shaderpacks/
 logs/
 crash-reports/
+prism-instance/
+dist/
+build-instance.sh

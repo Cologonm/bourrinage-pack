@@ -31,3 +31,7 @@ packwiz-installer-bootstrap.jar
 
 # Réglages locaux de Claude Code
 .claude/settings.local.json
+
+# Zip d instance Prism (publie en Release, pas dans git)
+dist/
+!prism-instance/.minecraft/packwiz-installer-bootstrap.jar

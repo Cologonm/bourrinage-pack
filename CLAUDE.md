@@ -35,3 +35,10 @@ Pour qu'il ne soit pas écrasé chez les joueurs, mettre `preserve = true` sur s
 
 ## À faire
 - Dépôt : github.com/Cologonm/bourrinage-pack ; URL raw : https://raw.githubusercontent.com/Cologonm/bourrinage-pack/main/pack.toml
+
+## Instance Prism à importer
+- Modèle dans `prism-instance/` (instance.cfg, mmc-pack.json, bootstrap jar). Ne pas y mettre de chemin Java local.
+- `./build-instance.sh` → `dist/Bourrinage.zip`, à publier en Release GitHub (nom exact `Bourrinage.zip`,
+  le README pointe sur releases/latest/download/Bourrinage.zip). À refaire seulement si Minecraft/Fabric/RAM changent.
+- Format de PreLaunchCommand dans instance.cfg : `PreLaunchCommand=\"$INST_JAVA\" -jar ...` (guillemets échappés, sinon
+  le chemin Java avec espace casse la commande).
